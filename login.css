@@ -22,16 +22,22 @@
     align-items: center;
     justify-content: center;
     background-color: var(--secondary-color);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
   }
   
   main {
+    scale: calc(1.1);
+    width: 60vw;
+    height: 68vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
     padding: 2vh;
-    border-radius: 10px;
+    border-radius: 5vh;
+    background-color: var(--primary-color);
   }
   
   section {
@@ -41,7 +47,7 @@
     justify-content: center;
     gap: 2vh;
     margin: 4vh;
-    background-color: #fff;
+    color: white;
     padding: 2vh;
   }
   
@@ -52,7 +58,9 @@
   }
   
   button {
-    cursor:pointer
+    cursor:pointer;
+    background-color: var(--tertiary-color);
+    size: auto;
   }
   
   button,
