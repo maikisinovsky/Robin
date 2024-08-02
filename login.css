@@ -45,7 +45,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vh;
+    gap: 5vh;
     margin: 4vh;
     color: white;
     padding: 2vh;
@@ -71,3 +71,20 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
+
+.nombreLog {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-right: 25vw;
+  padding-left: 2vh;
+}
+
+.contraLog {
+  padding-top: 4.5vh;
+  padding-bottom: 4.5vh;
+  padding-right: 25vw;
+  padding-left: 2vh;
+  border: 0.9vh solid black;
+
+}
+
