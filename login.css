@@ -77,6 +77,10 @@
   padding-bottom: 4vh;
   padding-right: 25vw;
   padding-left: 2vh;
+  border: 0.8vh solid var(--tertiary-color);
+  border-radius: 2vh;
+
+  
 }
 
 .contraLog {
@@ -84,7 +88,8 @@
   padding-bottom: 4.5vh;
   padding-right: 25vw;
   padding-left: 2vh;
-  border: 0.9vh solid black;
+  border: 0.8vh solid var(--tertiary-color);
+  border-radius: 2vh;
 
 }
 
