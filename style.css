@@ -1,8 +1,3 @@
-:root {
-  --primary-color: #EAEAEA;
-  --secondary-color: #0E0929;
-  --tertiary-color: #D9D9D9;
-}
 
 * {
   margin: 0;
@@ -21,68 +16,64 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./imagenes/PRINCIPAL.svg);
   background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 
 main {
-  scale: calc(1.1);
-  width: 60vw;
-  height: 68vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2vh;
-  border-radius: 5vh;
-  background-color: #0E0929;
-  border: 3px solid #C51C62;
-  opacity: 93%;
-  border-width: 8px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  justify-content: center
 }
 
 section {
+  width: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5vh;
-  margin: 2vh;
-  padding: 1vh;
+
+  
 }
 
 h1 {
-  font-size: 80px;
-    color: white;
+  font-size: 6vh;
+    color: black;
+    text-align: center;
 }
 
 p{
-  font-size: 25px;
-  color: white;
+  font-size: 2.5vh;
+  color:black;
   padding-top: 15px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 button {
-  cursor:pointer
+  cursor:pointer;
 }
 
-button,
-.primary {
-  padding: 1vh 2vh;
+.Log {
+  width: 10vh;
+  height: 1.8vw; 
   border: none;
-  text-transform: uppercase;
-  
-  width: 250px;
-  height: 80px;
-  background-color: #C51C62;
-  color: white;
-  border-radius:  13px;
-  font-size: 30px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  border-radius:3vh;
+  font-size: 2vh;
+  border: 0.3vh solid #D9D9D9 ;
+  background-color: white;
 
-    
+}
+.Sign {
+  width: 10vh;
+  height: 1.8vw; 
+  border: none;
+  border-radius:3vh;
+  font-size: 2vh;
+  background-color: #D9D9D9 ;
+
 }
