@@ -1,5 +1,5 @@
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -59,7 +59,16 @@ button {
 }
 
 .Log {
-  width: 10vh;
+  width: 11vh;
+  height: 1.8vw; 
+  border: none;
+  border-radius:3vh;
+  font-size: 2vh;
+  background-color: #D9D9D9 ;
+
+}
+.Sign {
+  width: 11vh;
   height: 1.8vw; 
   border: none;
   border-radius:3vh;
@@ -68,12 +77,8 @@ button {
   background-color: white;
 
 }
-.Sign {
-  width: 10vh;
-  height: 1.8vw; 
-  border: none;
-  border-radius:3vh;
-  font-size: 2vh;
-  background-color: #D9D9D9 ;
 
+.botonesLog  {
+  display: flex;
+  gap: 1.5vh;
 }
