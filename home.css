@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.taskBar {
+  background-color: #D9D9D9;
+  height: 8vh;
+  width: 100vw;
+  box-shadow: none; 
+  display: flex;
+  justify-content:center;
+  gap: 50vh;
+  align-items:center;
+  position: fixed;
+  bottom:0;
+  z-index: 1;
+}
+
+.home:hover, .hora:hover, .form:hover   {
+  background-color: #CACACACA; 
+  transform: scale(1.05);
+  
+}
+
+.home, .hora, .form  {
+  background-color: #D9D9D9;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  padding: 1.5vh;
+  border-radius: 1.5vh;
+}

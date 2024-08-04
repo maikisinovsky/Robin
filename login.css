@@ -63,24 +63,30 @@ button,
   border: none;
   border-radius:3vh;
   font-size: 2vh;
-  background-color: #D9D9D9 ;
+  background-color: #D9D9D9;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
   }
 
-.nombreLog {
+.nombreLog, .contraLog {
   padding-top: 3vh;
   padding-bottom: 3vh;
   padding-right: 6vw;
   padding-left: 2vh;
   border: 0.8vh solid #D9D9D9;
   border-radius: 2.4vh;
-}
-  
-.contraLog {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  padding-right: 6vw;
-  padding-left: 2vh;
-  border: 0.8vh solid #D9D9D9;
-  border-radius: 2.4vh;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
 }
 
+.primary:hover  {
+  background-color: #cacaca;
+  transform: scale(1.05);
+
+}
+
+input:hover {
+  border: 0.8vh solid #cacaca;
+  transform: scale(1.02);
+
+}
