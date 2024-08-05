@@ -25,7 +25,7 @@
     z-index: 1;
   }
   
-  .home:hover, .hora:hover, .form:hover   {
+  .home:hover, .hora:hover, .form:hover {
     background-color: #CACACACA; 
     transform: scale(1.05);
     
@@ -38,4 +38,40 @@
     padding: 1.5vh;
     border-radius: 1.5vh;
   }
+  
+  .botonesL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 92vh;
+  }
+
+  .botonesL > div {
+    display: flex; 
+    margin-bottom: 2.6vh; 
+    gap:2.6vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.6vh;
+  }
+
+  a > button {
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+  }
+  
+  a > button:hover {
+    background-color: #D9D9D9;
+  transform: scale(1.05);
+
+  }
+
+
   

@@ -9,11 +9,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .taskBar {
   background-color: #D9D9D9;
-  height: 8vh;
+  height: 64px;
   width: 100vw;
   box-shadow: none; 
   display: flex;
@@ -22,6 +25,7 @@ body {
   align-items:center;
   position: fixed;
   bottom:0;
+  left: 0;
   z-index: 1;
 }
 
@@ -37,4 +41,36 @@ body {
   display: inline-block;
   padding: 1.5vh;
   border-radius: 1.5vh;
+}
+
+.grid-container {
+  height: 150px;
+  width: 85vw;
+  background-color: #EAEAEAEA;
+  border-radius: 80px;
+  display: flex;
+  justify-content:center;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  padding-inline: 8vh;
+  margin-top: 5vh;
+
+}
+
+button {
+  font-size: 45px;
+  padding: 10px;
+  padding-inline: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #D9D9D9;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+
+}
+
+button:hover {
+  background-color: #cacaca;
+  transform: scale(1.05);
 }
