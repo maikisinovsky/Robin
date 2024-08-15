@@ -1,0 +1,26 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.datos {
+    margin: 20px;
+}
+.grid-table {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr;
+    margin-top: 10px;
+}
+.grid-header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+.grid-row {
+    display: contents;
+}
+.grid-cell {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
