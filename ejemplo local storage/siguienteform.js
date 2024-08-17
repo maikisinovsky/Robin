@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.createElement("div");
     container.classList.add("datos");
   
-  
+   
     if (listaDatosFormulario && listaDatosFormulario.length > 0) {
       container.innerHTML = `
         <h2>Los datos (literalmente un dataframe)</h2>
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       `;
   
-        
+     
       listaDatosFormulario.forEach((datosFormulario) => {
         const row = document.createElement("div");
         row.classList.add("grid-row");
