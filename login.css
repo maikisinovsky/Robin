@@ -55,8 +55,8 @@
   
 button,
 .primary {
-  width: 18vh;
-  height: 2vw; 
+  width: 120px;
+  height: 30px; 
   border: none;
   border-radius:3vh;
   font-size: 2vh;

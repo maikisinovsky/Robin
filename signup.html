@@ -16,9 +16,15 @@
     <main>
       <section>
         <h1>Sign up</h1>
-        <input type='text' placeholder='Nombre completo' class="nombreLog">
-        <input type='text' placeholder='Contraseña' class="contraLog"/>
-        <a href='home.html'><button class='primary'>Registrate</button></a>
+        <form id="signupForm">
+          <label>Nombre</label>
+          <input type="text" placeholder="Nombre" id="Nombre" required autofocus>
+          <label>Mail</label>
+          <input type="Mail" placeholder="Mail" id="Mail" required>
+          <label>Contraseña</label>
+          <input type="Contraseña" placeholder="Contraseña" id="Contraseña" required>
+          <input type="submit" value="Registro">
+        </form>
       </section>
     </main>
   </body>

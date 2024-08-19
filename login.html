@@ -18,9 +18,14 @@
     <main>
       <section>
         <h1>Login</h1>
-        <input type='text' placeholder='Nombre completo' class="nombreLog">
-        <input type='text' placeholder='Contraseña' class="contraLog"/>
-        <a href='home.html'><button class='primary'>Iniciar sesión</button></a>
+        <form id="loginForm">
+          <label for="Mail"></label>
+          <input type="Mail" placeholder="Mail" id="Mail" required autofocus>
+          <label for="Contraseña"></label>
+          <input type="password" placeholder="Contraseña" id="Contraseña" required>
+          <input type="submit" value="Inicia Sesion">
+        </form>
+        <p>¿No tienes una cuenta? <a href="signup.html">Registrate</a></p>
       </section>
     </main>
   </body>
