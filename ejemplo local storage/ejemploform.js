@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       primerDestinoInput.value = button.textContent;
     });
   });
-
+  document.getElementById
   // Añade un evento a cada botón del segundo destino para asignar su valor al campo oculto correspondiente
   segundoDestinoBtns.forEach(button => {
     button.addEventListener("click", function () {

@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="grid-header">Segundo Destino</div>
         </div>
     `;
-
+        
         
     listaDatosFormulario.forEach((datosFormulario) => {
         const row = document.createElement("div");
