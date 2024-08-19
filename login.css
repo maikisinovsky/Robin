@@ -48,12 +48,12 @@
     color: black;
   }
   
-  button {
+.primary {
     cursor:pointer;
     size: auto;
   }
   
-button,
+
 .primary {
   width: 120px;
   height: 30px; 
