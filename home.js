@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const listaDatosFormulario = JSON.parse(
     localStorage.getItem("listaDatosFormulario")

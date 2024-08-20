@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2.6vh;
+    gap:8px;
     margin: 4vh;
     padding: 2vh;
   }
@@ -55,32 +55,47 @@
   
 
 .primary {
-  width: 120px;
-  height: 30px; 
   border: none;
-  border-radius:3vh;
+  border-radius: 2.4vh;
   font-size: 2vh;
   background-color: #D9D9D9;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
+ 
   }
 
 .nombreLog, .contraLog {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-right: 6vw;
-  padding-left: 2vh;
   border: 0.8vh solid #D9D9D9;
   border-radius: 2.4vh;
+}
+
+.nombreLog, .contraLog, .primary {
+  width: 260px;
+  height: 50px;
+  padding: 10px;
+  
+
 }
 
 .primary:hover  {
   background-color: #cacaca;
   transform: scale(1.05);
+  
 
 }
 
 input:hover {
   border: 0.8vh solid #cacaca;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh;
+  gap: 8px;
+  
 
 }

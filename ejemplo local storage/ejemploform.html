@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    
     <title>Formulario</title>
     <script defer src="ejemploform.js"></script> 
-    />
-  </head>
-  <body>
+</head>
+<body>
     <a href="./siguienteform.html">Next</a>
     <form id="formulario">
-      <label for="nombre">nombre:</label>
-        <div id="nombre" name="nombre"></div>
-        
-      <label>Primer destino:</label>
+      
+        <label>Primer destino:</label>
         <button type="button" class="primerDestinoBtn">L1</button>
         <button type="button" class="primerDestinoBtn">L2</button>
         <button type="button" class="primerDestinoBtn">L3</button>
         <button type="button" class="primerDestinoBtn">L4</button>
+        <input type="hidden" id="primerDestino" name="primerDestino">
 
-    <label>Segundo destino:</label>
+        <label>Segundo destino:</label>
         <button type="button" class="segundoDestinoBtn">L1</button>
         <button type="button" class="segundoDestinoBtn">L2</button>
         <button type="button" class="segundoDestinoBtn">L3</button>
         <button type="button" class="segundoDestinoBtn">L4</button>
+        <input type="hidden" id="segundoDestino" name="segundoDestino">
 
         <input type="submit" value="Registro">
     </form>
-  </body>
+</body>
 </html>
