@@ -13,17 +13,16 @@
   
   .taskBar {
     background-color: #D9D9D9;
-  height: 50px;
-  width: 100vw;
-  box-shadow: none; 
-  display: flex;
-  justify-content:center;
-  gap: 300px;
-  align-items:center;
-  position: fixed;
-  bottom:0;
-  left: 0;
-  z-index: 1;
+    height: 50px;
+    width: 100vw;
+    box-shadow: none; 
+    display: flex;
+    justify-content:center;
+    gap: 300px;
+    align-items:center;
+    top:0;
+    left: 0;
+    z-index: 1;
   }
   
   .home:hover, .hora:hover, .form:hover   {
@@ -45,9 +44,6 @@ input  {
     width:85vw;
     background-color: #EAEAEAEA;
     border-radius: 80px;
-    display: flex;
-    justify-content:center;
-    justify-content: space-between;
     font-size: 30px;
     padding-inline: 8vh;
     margin-top: 5vh;
@@ -56,5 +52,36 @@ input  {
 
 .buscarPersona  {
   display: flex;
- justify-content: center;
+  justify-content: center;
+}
+
+.tablaHorarios {
+  height: 480px;
+  width: 40vw;
+  background-color:peru;
+  border-radius: 30px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+  width: 100%;
+  position: relative;
+}
+
+
+header{
+}
+
+main{
+display: flex; 
+justify-content: right;
+padding-inline: 105px;
+
+}
+
+footer{
 }

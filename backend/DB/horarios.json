@@ -1,0 +1,184 @@
+
+{
+
+    "Ivo":
+    {
+        "lunes": {
+            "bloque1": {
+                "aula":"L2"
+            },
+
+            "bloque2":{
+                "aula": "L2"
+            },
+
+            "bloque3":{
+                "aula": "L4"
+            },
+
+            "bloque5":{
+                "aula": "L4"
+            }
+            
+        },
+
+        "martes":  {
+            "bloque1": {
+                "aula": "L4"
+            },
+
+            "bloque2": {
+                "aula":"L2"
+            },
+
+            "bloque3": {
+                "aula":"L2"
+            },
+
+            "bloque5": {
+                "aula":"L4"
+            }
+        },
+
+        "miercoles":{
+            "bloque1":{
+                "aula": "L2"
+            },
+
+            "bloque2": {
+                "aula": "203"
+            },
+
+            "bloque3":{
+                "aula": "L3"
+            },
+
+            "bloque4":{
+                "aula": "L1"
+            },
+
+            "bloque5":{
+                "aula":"L4"
+            }
+        },
+
+        "jueves": {
+            "bloque2": {
+                "aula": "L3"
+            },
+
+            "bloque3":{
+                "aula": "L3"
+            },
+
+            "bloque4":{
+                "aula": "L3"
+            },
+
+            "bloque5":{
+                "aula":"L3"
+            }
+        },
+
+        "viernes": {
+            "bloque1": {
+                "aula": "L3"
+            },
+
+            "bloque2":{
+                "aula": "L4"
+            },
+
+            "bloque4":{
+                "aula": "L3"
+            },
+
+            "bloque5":{
+                "aula":"L1"
+            }
+
+        }
+    },
+
+    "Pau": 
+    {
+        "lunes":{
+            "bloque2":{
+                "aula": "L1"
+            } ,
+
+            "bloque3":{
+                "aula": "L1"
+
+            },
+
+            "bloque5":{
+                "aula": "L1"
+            }  
+        },
+
+        "martes": {
+            "bloque4":{
+                "aula": "L1"
+            },
+
+            "bloque5":{
+                "aula": "L1"
+            }  
+
+        },
+
+        "miercoles":  {
+            "bloque2":{
+                "aula":"L1"
+            }, 
+
+            "bloque5": {
+                "aula": "L1"
+            }
+        },
+
+        "jueves": {
+            "bloque2":{
+                "aula": "L1"
+            },
+
+            "bloque3":{
+                "aula":"L2"
+            }
+        },
+
+        "viernes": {
+            "bloque4":{
+                "aula": "L1"           
+            }
+
+        }
+    },
+
+    "Lu": {
+        "miercoles": {
+            "bloque2": {
+                "aula": "L3"
+            }, 
+            
+            "bloque3": {
+                "aula":"L2"
+            }
+        }
+    }, 
+
+    "Daro": {
+        "lunes": {
+            "bloque5": {
+                "aula":"L2"
+            }
+        },
+
+        "martes":{
+            "bloque5": {
+                "aula":"203"
+            }
+        }
+    }
+}
