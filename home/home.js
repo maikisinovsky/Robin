@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (listaDatosFormulario && listaDatosFormulario.length > 0) {
     container.innerHTML = `
         <div class="grid-table">
-            <div class="grid-header">Nombre</div>
+            <div class="grid-header"></div>
             <div class="grid-header">Primer Destino</div>
             <div class="grid-header">Segundo Destino</div>
         </div>
