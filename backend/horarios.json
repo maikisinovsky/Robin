@@ -165,7 +165,15 @@
             "bloque3": {
                 "aula":"L2"
             }
+        }, 
+
+        "jueves": {
+            "bloque3": {
+                "aula": "L3"
+            }
         }
+
+
     }, 
 
     "Daro": {
