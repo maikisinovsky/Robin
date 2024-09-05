@@ -3,7 +3,7 @@
 
     "Ivo":
     {
-        "lunes": {
+        "1": {
             "bloque1": {
                 "aula":"L2"
             },
@@ -22,7 +22,7 @@
             
         },
 
-        "martes":  {
+        "2":  {
             "bloque1": {
                 "aula": "L4"
             },
@@ -40,7 +40,7 @@
             }
         },
 
-        "miercoles":{
+        "3":{
             "bloque1":{
                 "aula": "L2"
             },
@@ -62,7 +62,7 @@
             }
         },
 
-        "jueves": {
+        "4": {
             "bloque2": {
                 "aula": "L3"
             },
@@ -80,7 +80,7 @@
             }
         },
 
-        "viernes": {
+        "5": {
             "bloque1": {
                 "aula": "L3"
             },
@@ -102,7 +102,7 @@
 
     "Pau": 
     {
-        "lunes":{
+        "1":{
             "bloque2":{
                 "aula": "L1"
             } ,
@@ -117,7 +117,7 @@
             }  
         },
 
-        "martes": {
+        "2": {
             "bloque4":{
                 "aula": "L1"
             },
@@ -128,7 +128,7 @@
 
         },
 
-        "miercoles":  {
+        "3":  {
             "bloque2":{
                 "aula":"L1"
             }, 
@@ -138,7 +138,7 @@
             }
         },
 
-        "jueves": {
+        "4": {
             "bloque2":{
                 "aula": "L1"
             },
@@ -148,7 +148,7 @@
             }
         },
 
-        "viernes": {
+        "5": {
             "bloque4":{
                 "aula": "L1"           
             }
@@ -157,7 +157,7 @@
     },
 
     "Lu": {
-        "miercoles": {
+        "3": {
             "bloque2": {
                 "aula": "L3"
             }, 
@@ -167,7 +167,7 @@
             }
         }, 
 
-        "jueves": {
+        "4": {
             "bloque3": {
                 "aula": "L3"
             }
@@ -177,13 +177,13 @@
     }, 
 
     "Daro": {
-        "lunes": {
+        "1": {
             "bloque5": {
                 "aula":"L2"
             }
         },
 
-        "martes":{
+        "2":{
             "bloque5": {
                 "aula":"203"
             }

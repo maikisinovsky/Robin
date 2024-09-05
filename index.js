@@ -2,12 +2,9 @@
 let now = new Date();
 var ahora = document.getElementById("now")
 
-
 let json = JSON.parse(data);
 
-let dia =  "jueves";
-
-console.log(dia);
+let dia =  now.getDay();
 
 let bloque = "bloque3";
 

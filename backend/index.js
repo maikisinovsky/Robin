@@ -1,5 +1,11 @@
 import { onEvent, sendEvent, startServer } from "soquetic";
+import fs from "fs"
+
 
 onEvent("messi", ()=>{
-    return "hola manola, chupame las bolas";
+    let horario = fs.readFileSync("./horarios.json").toString()
+
+    return horario;
 })
+
+startServer()

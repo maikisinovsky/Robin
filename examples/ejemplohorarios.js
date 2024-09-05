@@ -1,11 +1,8 @@
 let now = new Date();
 let ahora = document.getElementById("now")
-var fs=require('fs');
-var data =fs.readFileSync('horarios.json', 'utf8');
-
-
-
-l
+let data = fetchData("messi", (data)=>{
+console.log(data)
+})
 
 if (now.getHours() >= 7 && now.getHours() <= 8 || now.getHours() == 9 && now.getMinutes() <= 5) {
     ahora.innerHTML = "bloque 1"
