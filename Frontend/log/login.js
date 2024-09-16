@@ -11,7 +11,7 @@ loginform.addEventListener("submit", (e)=> {
         return alert("Usuario y/o contraseña incorrectos")
     } else {
         alert("Bienvenido!")
-        window.location.href = "/home/home.html"
+        window.location.href = "/Frontend/home/home.html"
     }
     
 }) 
