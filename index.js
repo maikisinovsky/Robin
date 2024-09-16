@@ -1,6 +1,9 @@
 
 let now = new Date();
 var ahora = document.getElementById("now")
+var fs = require('fs');
+var data = fs.readFileSync('backend/DB/horarios.json', 'utf8');
+
 
 let json = JSON.parse(data);
 
@@ -8,7 +11,7 @@ let dia =  now.getDay();
 
 let bloque = "bloque3";
 
-console.log(json.Lu[dia][bloque]);
+console.log(json.Ivo[dia][bloque]);
 
 if (now.getHours() >= 7 && now.getHours() <= 8 || now.getHours() == 9 && now.getMinutes() <= 5) {
     //ahora.innerHTML = "bloque 1"
