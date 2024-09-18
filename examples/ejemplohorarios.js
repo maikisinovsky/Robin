@@ -1,5 +1,5 @@
 let now = new Date();
-let ahora = document.getElementById("now");
+
 var fs = require('fs');
 var data = fs.readFileSync('horarios.json', 'utf8');
 

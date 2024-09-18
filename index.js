@@ -11,7 +11,8 @@ let dia =  now.getDay();
 
 let bloque = "bloque3";
 
-console.log(json.Ivo[dia][bloque]);
+connsole.log("Esto es PAU");
+console.log(json.Pau[dia]["bloque2"]);
 
 if (now.getHours() >= 7 && now.getHours() <= 8 || now.getHours() == 9 && now.getMinutes() <= 5) {
     //ahora.innerHTML = "bloque 1"
