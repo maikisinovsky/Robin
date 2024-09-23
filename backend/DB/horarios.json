@@ -1,183 +1,186 @@
 {
-  "Ivo": {
+"Ivo": {
     "1": {
-      "bloque1": {
-        "aula": "L2"
-      },
+        "bloque1": {
+            "aula": "L2"
+    },
 
-      "bloque2": {
-        "aula": "L2"
-      },
+        "bloque2": {
+            "aula": "L2"
+        },
 
-      "bloque3": {
-        "aula": "L4"
-      },
+        "bloque3": {
+            "aula": "L4"
+        },
 
-      "bloque5": {
-        "aula": "L4"
-      }
+        "bloque5": {
+            "aula": "L4"
+        }
     },
 
     "2": {
-      "bloque1": {
-        "aula": "L4"
-      },
+        "bloque1": {
+            "aula": "L4"
+        },
 
-      "bloque2": {
-        "aula": "L2"
-      },
+        "bloque2": {
+            "aula": "L2"
+        },
 
-      "bloque3": {
-        "aula": "L2"
-      },
+        "bloque3": {
+            "aula": "L2"
+        },
 
-      "bloque5": {
-        "aula": "L4"
-      }
+        "bloque5": {
+            "aula": "L4"
+        }
     },
 
     "3": {
-      "bloque1": {
-        "aula": "L2"
-      },
+        "bloque1": {
+            "aula": "L2"
+        },
 
-      "bloque2": {
-        "aula": "203"
-      },
+        "bloque2": {
+            "aula": "203"
+        },
 
-      "bloque3": {
-        "aula": "L3"
-      },
+        "bloque3": {
+            "aula": "L3"
+        },
 
-      "bloque4": {
-        "aula": "L1"
-      },
+        "bloque4": {
+            "aula": "L1"
+        },
 
-      "bloque5": {
-        "aula": "L4"
-      }
+        "bloque5": {
+            "aula": "L4"
+        }
     },
 
     "4": {
-      "bloque2": {
-        "aula": "L3"
-      },
+        "bloque2": {
+            "aula": "L3"
+        },
 
-      "bloque3": {
-        "aula": "L3"
-      },
+        "bloque3": {
+            "aula": "L3"
+        },
 
-      "bloque4": {
-        "aula": "L3"
-      },
+        "bloque4": {
+            "aula": "L3"
+        },
 
-      "bloque5": {
-        "aula": "L3"
-      }
+        "bloque5": {
+            "aula": "L3"
+        }
     },
 
     "5": {
-      "bloque1": {
-        "aula": "L3"
-      },
+        "bloque1": {
+            "aula": "L3"
+        },
 
-      "bloque2": {
-        "aula": "L4"
-      },
+        "bloque2": {
+            "aula": "L4"
+        },
 
-      "bloque4": {
-        "aula": "L3"
-      },
+        "bloque4": {
+            "aula": "L3"
+        },
 
-      "bloque5": {
-        "aula": "L1"
-      }
+        "bloque5": {
+            "aula": "L1"
+        }
     }
-  },
+},
 
-  "Pau": {
+"Pau": {
     "1": {
-      "bloque2": {
-        "aula": "L1"
-      },
+        "bloque2": {
+            "aula": "L1"
+        },
 
-      "bloque5": {
-        "aula": "L1"
-      }
+        "bloque5": {
+            "aula": "L1"
+        }
     },
 
     "2": {
-      "bloque4": {
-        "aula": "L1"
-      },
+        "bloque4": {
+            "aula": "L1"
+        },
 
-      "bloque5": {
-        "aula": "L1"
-      }
+        "bloque5": {
+            "aula": "L1"
+        }
     },
 
     "3": {
-      "bloque2": {
-        "aula": "L1"
-      },
+        "bloque2": {
+            "aula": "L1"
+        },
 
-      "bloque5": {
-        "aula": "L1"
-      }
+        "bloque5": {
+            "aula": "L1"
+        }
     },
 
     "4": {
-      "bloque2": {
-        "aula": "L1"
-      },
+        "bloque2": {
+            "aula": "L1"
+        },
 
-      "bloque3": {
-        "aula": "L2"
-      }
+        "bloque3": {
+            "aula": "L2"
+        }
     },
 
     "5": {
-      "bloque4": {
-        "aula": "L1"
-      }
+        "bloque4": {
+            "aula": "L1"
+        }
     }
-  },
+},
 
-  "Lu": {
+"Lu": {
     "3": {
-      "bloque2": {
-        "aula": "L3"
-      },
+        "bloque2": {
+            "aula": "L3"
+        },
 
-      "bloque3": {
-        "aula": "L2"
-      }
+        "bloque3": {
+            "aula": "L2"
+        }
     },
 
     "4": {
-      "bloque2": {
-        "aula": "L2"
-      },
-      "bloque3": {
-        "aula": "L3"
-      }
-    }
-  },
+        "bloque2": {
+            "aula": "L2"
+        },
 
-  "Daro": {
+        "bloque3": {
+            "aula": "L3"
+        }
+    }
+},
+
+"Daro": {
     "1": {
-      "bloque3": {
-        "aula": "L2"
-      },
-      "bloque5": {
-        "aula": "L2"
-      }
+        "bloque3": {
+            "aula": "L2"
+        },
+
+        "bloque5": {
+            "aula": "L2"
+        }
     },
 
     "2": {
-      "bloque5": {
-        "aula": "203"
-      }
+        "bloque5": {
+            "aula": "203"
+        }
     }
-  }
+}
+
 }

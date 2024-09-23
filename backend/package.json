@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.5",
     "soquetic": "^1.0.4"
   }
 }

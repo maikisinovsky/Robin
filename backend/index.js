@@ -1,17 +1,15 @@
 import fs from 'fs';
-import { startServer, onEvent } from 'soquetic';
+import { onEvent,sendEvent, startServer } from "soquetic";
+
+
+onEvent()
+
+
 let now = new Date();
 let data = fs.readFileSync('DB/horarios.json', 'utf8')
+let horario = "1"
+sendEvent("horario", horario);
 
-/*
-function enviarHorario (){
-    let mensaje = json.Ivo[dia][bloque];
-
-    return mensaje
-}
-
-onEvent("conseguirHorarioIvo", enviarHorario)
-*/
 
 let json = JSON.parse(data);
 
@@ -19,7 +17,8 @@ let dia =  now.getDay();
 
 let bloque = "bloque3"; 
 
-if (now.getHours() >= 7 && now.getHours() <= 8 || now.getHours() == 9 && now.getMinutes() <= 5) {
+if (now.getHours() >= 7 && now.getHours() <= 8 ||
+ now.getHours() == 9 && now.getMinutes() <= 5) {
     //ahora.innerHTML = "bloque 1"
     bloque = "bloque1"
 }
@@ -46,11 +45,6 @@ else if (now.getHours() == 15 && now.getMinutes() <= 59 || now.getHours() == 14 
 
 }
 
-let aulaIvo;
-let aulaPau;
-let aulaLu;
-let aulaDaro;
-
 if (json.Daro[dia])
 {
     if(json.Daro[dia][bloque]) {
@@ -62,7 +56,7 @@ if (json.Daro[dia])
     }
 }
 else {
-    console.log("No disponible");
+    console.log("No disponible hoy");
 }
 
 if (json.Ivo[dia])
@@ -76,7 +70,7 @@ if (json.Ivo[dia])
     }
 }
 else {
-    console.log("No disponible");
+    console.log("No disponible hoy");
 }
 
 if (json.Pau[dia])
@@ -91,7 +85,7 @@ if (json.Pau[dia])
     }
 }
 else {
-    console.log("No disponible");
+    console.log("No disponible hoy");
 }
 
 if (json.Lu[dia])
@@ -105,7 +99,7 @@ if (json.Lu[dia])
     }
 }
 else {
-    console.log("No disponible");
+    console.log("No disponible hoy");
 }
 
-//startServer();
+startServer();
