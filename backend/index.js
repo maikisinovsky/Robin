@@ -6,7 +6,7 @@ onEvent()
 
 
 let now = new Date();
-let data = fs.readFileSync('DB/horarios.json', 'utf8')
+let data = fs.readFileSync('C:/Users/48801487/Desktop/Robin/backend/DB/horarios.json', 'utf8')
 let horario = "1"
 sendEvent("horario", horario);
 

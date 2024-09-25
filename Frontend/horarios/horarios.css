@@ -9,11 +9,12 @@
   body {
     height: 100%;
     width: 100%;
+    overflow: hidden; 
   }
   
   .taskBar {
     background-color: #080229;
-    height: 50px;
+    height: 55px;
     width: 100vw;
     box-shadow: none; 
     display: flex;
@@ -31,7 +32,7 @@
 }
 
 .home:hover, .hora:hover, .form:hover {
-  background-color: #080229; 
+  background-color: #0e0444; 
   transform: scale(1.05);
   
 }
