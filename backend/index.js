@@ -17,6 +17,7 @@ let dia =  now.getDay();
 
 let bloque = "bloque3"; 
 
+
 if (now.getHours() >= 7 && now.getHours() <= 8 ||
  now.getHours() == 9 && now.getMinutes() <= 5) {
     //ahora.innerHTML = "bloque 1"
@@ -45,61 +46,84 @@ else if (now.getHours() == 15 && now.getMinutes() <= 59 || now.getHours() == 14 
 
 }
 
+let Lu = ""; 
+let Daro = ""; 
+let Ivo = ""; 
+let Pau = ""; 
+
+
 if (json.Daro[dia])
 {
     if(json.Daro[dia][bloque]) {
-        console.log(json.Daro[dia][bloque]);
+        Daro =  json.Daro[dia][bloque];
+
+        console.log(Daro);
     }
 
     else {
-        console.log("No disponible");
+        Daro = "No disponible"
+        console.log(Daro);
     }
 }
 else {
-    console.log("No disponible hoy");
+    Daro = "No disponible hoy"
+    console.log(Daro);
 }
 
 if (json.Ivo[dia])
 {
     if(json.Ivo[dia][bloque]) {
-        console.log(json.Ivo[dia][bloque]);
+        Ivo = json.Ivo[dia][bloque]; 
+        console.log(Ivo); 
     }
 
     else {
-        console.log("No disponible");
+        Ivo = "No disponible"
+        console.log(Ivo);
     }
 }
 else {
-    console.log("No disponible hoy");
+    Ivo = "No disponible hoy"
+    console.log(Ivo);
 }
 
 if (json.Pau[dia])
 {
 
     if(json.Pau[dia][bloque]) {
-        console.log(json.Pau[dia][bloque]);
+        Pau =   json.Pau[dia][bloque];
+        console.log(Pau);
+
     }
 
     else {
-        console.log("No disponible");
+        Pau =  "No disponible";
+        console.log(Pau); 
+
     }
 }
 else {
-    console.log("No disponible hoy");
+    Pau = "No disponbible Hoy"
+    console.log(Pau); 
 }
 
 if (json.Lu[dia])
 {
     if(json.Lu[dia][bloque]) {
-        console.log(json.Lu[dia][bloque]);
+
+        Lu =  json.Lu[dia][bloque];
+        console.log(Lu);
     }
 
     else {
-        console.log("No disponible");
+        Lu = "No disponible"
+        console.log(Lu);
     }
 }
 else {
-    console.log("No disponible hoy");
+
+    Lu = "No disponible Hoy"
+    console.log(Lu);
 }
 
 startServer();

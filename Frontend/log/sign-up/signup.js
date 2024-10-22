@@ -1,11 +1,21 @@
+import postData from "soquetic"
 
 const signupForm = document.querySelector("#signupForm")
 signupForm.addEventListener("submit", (e)=> {
    e.preventDefault()
    const Nombre = document.querySelector("#Nombre").value
-   const Mail = document.querySelector("#Mail").value
+   const Mail = "sckhan"// document.querySelector("#Mail").value
    const Contraseña = document.querySelector("#Contraseña").value
 
+   postData('registrar', {
+      mail: Mail,
+      nombre: Nombre,
+      contraseña: Contraseña
+   }, (data) => {
+      console.log(data.mail)
+   })
+
+   /*
 
    const Users = JSON.parse(localStorage.getItem("users")) || []
    const isUserRegistrated = Users.find(user => user.Mail === Mail ) 
@@ -17,5 +27,6 @@ signupForm.addEventListener("submit", (e)=> {
    localStorage.setItem("users", JSON.stringify(Users))
    alert("Registro Exitoso")
    window.location.href = "login.html"
+   */
 
 }) 

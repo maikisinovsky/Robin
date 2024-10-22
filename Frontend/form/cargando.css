@@ -1,0 +1,74 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: "Inter", sans-serif;
+
+}
+
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.barraPlaceholder{ 
+    width: 500px;
+    height: 25px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex; 
+    align-items: center;
+    border: 8px solid white;
+
+}
+
+.barra {
+    width: 300px; 
+    height: 25px; 
+    border-radius: 20px;
+    left: -60%;
+    position: relative;
+    animation: one 2s infinite;
+    animation-timing-function: linear; 
+    
+    
+}
+
+.enCaminoTexto {
+    color: white; 
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.robinLogo {
+    background-image: url(../photos/Group\ 2\ \(2\).png);
+    background-size: cover;
+    width: 50px; 
+    height: 24px; 
+}
+
+.barraLogoPlaceholder {
+    display: flex; 
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+@keyframes one {
+    0% {left: -60%; background-color: #0C043F;}
+    15% {background-color: #0C043F;}
+    86% {background-color: #E91366;}
+    90% {left: 105%; background-color: #E91366;}
+    100% {left: 105%;}
+
+}
