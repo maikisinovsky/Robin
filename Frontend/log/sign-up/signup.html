@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>SignUp</title>
-    <link href="login.css" rel="stylesheet" type="text/css" />
+    <link href="../login/login.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet">
-    <script src='signup.js' defer></script>
+   
   </head>
   <body>
     <main>
@@ -22,8 +22,11 @@
           <input type="password" placeholder="Contraseña" id="Contraseña" required class="contraLog">
           <input type="submit" value="Registro" class="primary">
         </form>
-        <p>¿Ya tienes una cuenta?  <a href="login.html">Inicia Sesión</a></p>
+        <p>¿Ya tienes una cuenta?  <a href="../login/login.html" class="Registrate">Inicia Sesión</a></p>
       </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="socket.js"></script>
+    <script src='signup.js' defer></script>
   </body>
 </html>

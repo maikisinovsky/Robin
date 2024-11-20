@@ -9,6 +9,8 @@
   body {
     height: 100%;
     width: 100%;
+    background-image: url(../../photos/log_in.svg);
+    background-size: cover;
   }
   
   body {
@@ -27,7 +29,7 @@
     justify-content: center;
     padding: 2vh;
     border-radius: 5vh;
-    background-color: #EAEAEA;
+    background-color: #0C043F;
     opacity: 93%;
     border-width: 8px;
   }
@@ -45,7 +47,7 @@
   h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: black;
+    color: #EAEAEA;
   }
   
 .primary {
@@ -98,4 +100,12 @@ form {
   gap: 8px;
   
 
+}
+
+.Registrate {
+color: #E91366;
+}
+ 
+.textoCuenta {
+  color: #EAEAEA;
 }

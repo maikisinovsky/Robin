@@ -1,19 +1,18 @@
-import { onEvent } from "soquetic";
 
-let horario;
+let boton = document.getElementById("button")
+let dario
+let pau
+let ivo
+let lu
 
-postData("horario", nombre, (nombres) => {
-    let nombre = 'pepe'
-}),
-onEvent('horario', encontrarTodosLosNombres);
+fetchData("horarios",(data)=>{
+   lu = data.lu;
+   dario = data.daro;
+   ivo = data.ivo;
+   pau = data.pau
+   console.log(lu)
 
-function encontrarTodosLosNombres(datos) {
-    
-    let todosLosNombres =  JSON.parse(fs.readFileSync('DB/nombres.json', 'utf-8'));
-    todosLosNombres.push(datos)
-
-}   
+})
 
 
-console.log('hoal soy pepe')
-console.log(horario);
+

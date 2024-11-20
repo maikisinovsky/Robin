@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet">
     <!--Agregar la fuente Inter a tu archivo de HTML hasta acá-->
-    <script src='login.js' defer></script>
   </head>
   <body>
     <main>
@@ -25,8 +24,12 @@
           <input type="password" placeholder="Contraseña" id="Contraseña" required class="contraLog">
           <input type="submit" value="Inicia Sesion" defer class="primary">
         </form>
-        <p>¿No tienes una cuenta? <a href="signup.html">Registrate</a></p>
+        <p class="textoCuenta">¿No tienes una cuenta? <a href="../sign-up/signup.html" class="Registrate">Registrate</a></p>
       </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="socket.js"></script>
+    <script src='login.js' defer></script>
   </body>
+  
 </html>

@@ -10,6 +10,9 @@
     height: 100%;
     width: 100%;
     overflow: hidden; 
+    background-image: url(../../Frontend/photos/log_in.svg);
+    background-size: cover;
+
   }
   
   .taskBar {
@@ -63,8 +66,10 @@ input  {
 .tablaHorarios {
   height: 480px;
   width: 40vw;
-  background-color:peru;
+  background-color: #483CA1;
   border-radius: 30px;
+  margin-top: 15.5vh;
+  margin-right: 26%;
 
 }
 

@@ -10,6 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background: radial-gradient(rgb(1, 0, 58), rgb(190, 0, 73));
 }
 
 body {
@@ -42,13 +43,13 @@ section {
 
 h1 {
   font-size: 6vh;
-    color: black;
+    color: #E91366;
     text-align: center;
 }
 
 p{
   font-size: 2.5vh;
-  color:black;
+  color:rgb(255, 255, 255);
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
@@ -66,13 +67,14 @@ button {
   font-size: 2vh;
   background-color: #EAEAEA ;
   transition: background-color 0.3s ease, transform 0.3s ease;
+
   display: inline-block;
 
 }
 .Sign {
   width: 70px;
   height: 5vh; 
-  border: none;
+  border: white, solid 0px;
   border-radius:3vh;
   font-size: 2vh;
   border: 0.3vh solid #EAEAEA ;
@@ -98,3 +100,10 @@ button {
   display: flex;
   gap: 1.5vh;
 }
+
+.textoInicial  {
+  width: 500px; 
+  align-items: center;
+  color: rgb(212, 9, 87);
+}
+

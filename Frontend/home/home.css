@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden; 
+  background: radial-gradient(rgb(1, 0, 58), rgb(190, 0, 73));
   
 }
 
@@ -50,7 +51,8 @@ body {
 .grid-container {
   height: 150px;
   width: 85vw;
-  background-color: #EAEAEAEA;
+  background-color: #E91366;
+  border: white 4px solid;
   border-radius: 80px;
   display: flex;
   justify-content:center;
@@ -59,6 +61,7 @@ body {
   align-items: center;
   padding-inline: 8vh;
   margin-top: 5vh;
+  color: white;
 }
 
 button {
@@ -67,7 +70,7 @@ button {
   padding-inline: 40px;
   border-radius: 50px;
   border: none;
-  background-color: #D9D9D9;
+  background-color: #eaeaea;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
 }
@@ -78,7 +81,7 @@ button:hover {
 }
 
 .tablaRobin {
-  background-color: #EAEAEAEA;
+  background-color: #483CA1;
   height: 510px;
   width: 85vw; 
   border-radius: 50px;

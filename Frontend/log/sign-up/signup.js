@@ -1,10 +1,9 @@
-import postData from "soquetic"
 
 const signupForm = document.querySelector("#signupForm")
 signupForm.addEventListener("submit", (e)=> {
    e.preventDefault()
    const Nombre = document.querySelector("#Nombre").value
-   const Mail = "sckhan"// document.querySelector("#Mail").value
+   const Mail =  document.querySelector("#Mail").value
    const Contraseña = document.querySelector("#Contraseña").value
 
    postData('registrar', {
@@ -14,6 +13,8 @@ signupForm.addEventListener("submit", (e)=> {
    }, (data) => {
       console.log(data.mail)
    })
+
+   window.location.href = "../login/login.html"
 
    /*
 

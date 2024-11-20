@@ -11,16 +11,16 @@ import {
     import { onEvent, sendEvent, startServer } from "soquetic";
     
 
-    const pathJSON = join("backend/DB/usuarios.json")
+    const pathJSON = join("../backend/DB/usuarios.json")
 
     const datos = {
-        mail: undefined, 
-        nombre: undefined, 
-        contraseña: undefined, 
+        mail: "", 
+        nombre: "", 
+        contraseña: "", 
     }
 
-    function registrar(data) {
-
+    export function registrar(data) {
+        console.log(data)
         const nuevoUsuario = Object.create(datos);
 
         nuevoUsuario.mail = data.mail; 
@@ -48,8 +48,3 @@ import {
 
         console.log("nuevo usuario registrado", nuevoUsuario); 
     }
-
-    onEvent('registrar', (data) => {
-        registrar(data);
-    });
-

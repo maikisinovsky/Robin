@@ -1,0 +1,90 @@
+Date : 2024-11-20 11:54:35
+Directory : c:\Users\48801487\Desktop\Robin
+Total : 46 files,  1555 codes, 26 comments, 347 blanks, all 1928 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          7 |        556 |          0 |        125 |        681 |
+| JavaScript |         17 |        396 |         23 |        149 |        568 |
+| HTML       |         10 |        298 |          3 |         25 |        326 |
+| JSON       |          3 |        179 |          0 |         39 |        218 |
+| XML        |          9 |        126 |          0 |          9 |        135 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         46 |      1,555 |         26 |        347 |      1,928 |
+| Frontend                                                                      |         35 |      1,128 |         20 |        222 |      1,370 |
+| Frontend\form                                                                 |          8 |        325 |          0 |         52 |        377 |
+| Frontend\home                                                                 |          4 |        181 |          0 |         35 |        216 |
+| Frontend\horarios                                                             |          4 |        139 |          0 |         35 |        174 |
+| Frontend\log                                                                  |          7 |        214 |         15 |         44 |        273 |
+| Frontend\log\login                                                            |          4 |        153 |          2 |         33 |        188 |
+| Frontend\log\sign-up                                                          |          3 |         61 |         13 |         11 |         85 |
+| Frontend\photos                                                               |          9 |        126 |          0 |          9 |        135 |
+| Frontend\start                                                                |          3 |        143 |          5 |         47 |        195 |
+| backend                                                                       |          7 |        341 |          4 |        104 |        449 |
+| backend (Files)                                                               |          2 |         42 |          0 |          7 |         49 |
+| backend\DB                                                                    |          2 |        156 |          0 |         38 |        194 |
+| backend\Log                                                                   |          3 |        143 |          4 |         59 |        206 |
+| examples                                                                      |          4 |         86 |          2 |         21 |        109 |
+| examples (Files)                                                              |          2 |         27 |          1 |         10 |         38 |
+| examples\ExampleHorarios                                                      |          2 |         59 |          1 |         11 |         71 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\48801487\Desktop\Robin\Frontend\form\cargando.css                    | CSS        |         72 |          0 |         17 |         89 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\cargando.html                   | HTML       |         27 |          0 |          3 |         30 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\cargando.js                     | JavaScript |          5 |          0 |          3 |          8 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\form.css                        | CSS        |         67 |          0 |         16 |         83 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\form.html                       | HTML       |         33 |          0 |          1 |         34 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\motivo.css                      | CSS        |         61 |          0 |         10 |         71 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\motivo.html                     | HTML       |         28 |          0 |          1 |         29 |
+| c:\Users\48801487\Desktop\Robin\Frontend\form\where.html                      | HTML       |         32 |          0 |          1 |         33 |
+| c:\Users\48801487\Desktop\Robin\Frontend\home\home.css                        | CSS        |        102 |          0 |         18 |        120 |
+| c:\Users\48801487\Desktop\Robin\Frontend\home\home.html                       | HTML       |         35 |          0 |          3 |         38 |
+| c:\Users\48801487\Desktop\Robin\Frontend\home\home.js                         | JavaScript |         29 |          0 |         10 |         39 |
+| c:\Users\48801487\Desktop\Robin\Frontend\home\socket.js                       | JavaScript |         15 |          0 |          4 |         19 |
+| c:\Users\48801487\Desktop\Robin\Frontend\horarios\horarios.css                | CSS        |         79 |          0 |         18 |         97 |
+| c:\Users\48801487\Desktop\Robin\Frontend\horarios\horarios.html               | HTML       |         33 |          0 |          6 |         39 |
+| c:\Users\48801487\Desktop\Robin\Frontend\horarios\horarios.js                 | JavaScript |         12 |          0 |          7 |         19 |
+| c:\Users\48801487\Desktop\Robin\Frontend\horarios\socket.js                   | JavaScript |         15 |          0 |          4 |         19 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\login\login.css                  | CSS        |         88 |          0 |         23 |        111 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\login\login.html                 | HTML       |         32 |          2 |          2 |         36 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\login\login.js                   | JavaScript |         18 |          0 |          4 |         22 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\login\socket.js                  | JavaScript |         15 |          0 |          4 |         19 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\sign-up\signup.html              | HTML       |         31 |          0 |          2 |         33 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\sign-up\signup.js                | JavaScript |         15 |         13 |          5 |         33 |
+| c:\Users\48801487\Desktop\Robin\Frontend\log\sign-up\socket.js                | JavaScript |         15 |          0 |          4 |         19 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\Group 2 (1) 1.svg             | XML        |          9 |          0 |          1 |         10 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\PRINCIPAL.svg                 | XML        |         90 |          0 |          1 |         91 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\imgForm.svg                   | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\imgHome.svg                   | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\imgHora.svg                   | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\log_in.svg                    | XML        |          9 |          0 |          1 |         10 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\segundaImgForm.svg            | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\segundaImgHome.svg            | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\photos\segundaimgHora.svg            | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\48801487\Desktop\Robin\Frontend\start\index.html                     | HTML       |         32 |          0 |          3 |         35 |
+| c:\Users\48801487\Desktop\Robin\Frontend\start\script.js                      | JavaScript |         24 |          5 |         21 |         50 |
+| c:\Users\48801487\Desktop\Robin\Frontend\start\style.css                      | CSS        |         87 |          0 |         23 |        110 |
+| c:\Users\48801487\Desktop\Robin\backend\DB\horarios.json                      | JSON       |        149 |          0 |         38 |        187 |
+| c:\Users\48801487\Desktop\Robin\backend\DB\usuarios.json                      | JSON       |          7 |          0 |          0 |          7 |
+| c:\Users\48801487\Desktop\Robin\backend\Log\index.js                          | JavaScript |         70 |          4 |         36 |        110 |
+| c:\Users\48801487\Desktop\Robin\backend\Log\login.js                          | JavaScript |         34 |          0 |         12 |         46 |
+| c:\Users\48801487\Desktop\Robin\backend\Log\register.js                       | JavaScript |         39 |          0 |         11 |         50 |
+| c:\Users\48801487\Desktop\Robin\backend\package.json                          | JSON       |         23 |          0 |          1 |         24 |
+| c:\Users\48801487\Desktop\Robin\backend\server.js                             | JavaScript |         19 |          0 |          6 |         25 |
+| c:\Users\48801487\Desktop\Robin\examples\ExampleHorarios\ejemplohorarios.html | HTML       |         15 |          1 |          3 |         19 |
+| c:\Users\48801487\Desktop\Robin\examples\ExampleHorarios\ejemplohorarios.js   | JavaScript |         44 |          0 |          8 |         52 |
+| c:\Users\48801487\Desktop\Robin\examples\script.js                            | JavaScript |          7 |          1 |          3 |         11 |
+| c:\Users\48801487\Desktop\Robin\examples\signup.js                            | JavaScript |         20 |          0 |          7 |         27 |
+| Total                                                                         |            |      1,555 |         26 |        347 |      1,928 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
