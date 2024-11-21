@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <script src="form.js" defer></script>
+  
 </head>
 <body>
     <main>
@@ -22,13 +22,15 @@
         <section class="botonesL">
             <h1>¿Dónde estás?</h1>
             <div>
-                <a href="where.html"><button >L1</button></a><a href="where.html"><button>L2</button></a>
+                <button id="1">L1</button><button id="2">L2</button>
             </div>
-            <div>
-                <a href="where.html"><button>L3</button></a><a href="where.html"><button>L4</button></a>
+                <button id="3">L3</button><button id="4">L4</button>
             </div>
         </section>
 
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="socket.js"></script>
+    <script src="form.js" ></script>
 </body>
 </html>

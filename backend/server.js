@@ -1,4 +1,4 @@
-import { onEvent, startServer } from "soquetic";
+import { onEvent, startServer,sendEvent } from "soquetic";
 
 import { registrar } from "./Log/register.js";
 import { login } from "./Log/login.js";
@@ -18,8 +18,13 @@ onEvent("horarios", (data) => {
    return index(data)
 })
 
-onEvent("horarioLu", () => {
-    
-});
+onEvent("sendArduino",(data)=>{
+    console.log(data)
+    return arduino(data)
+})
+
+export const sendToFront = (data)=>{
+    sendEvent("dataFromArduino",data)
+}
 
 startServer()
