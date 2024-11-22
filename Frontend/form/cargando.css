@@ -3,7 +3,7 @@
     margin: 0; 
     overflow: hidden; 
     font-family: "Inter", sans-serif;
-    cursor: none;
+   
 
 }
 
@@ -18,14 +18,47 @@
 
 }
 
-body {
+body, html {
     display: flex; 
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: #000000;
+    background: linear-gradient(250deg, #E91366, #0C043F);
+
 }
+
+.taskBar {
+    background-color: #0C043F;
+    height: 55px;
+    width: 100vw;
+    box-shadow: none; 
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .imgHome, .imgHora, .imgForm {
+    width: 25px;
+    height: 25px; 
+  }
+  
+  .home:hover, .hora:hover, .form:hover {
+    background-color: #0e0444; 
+    transform: scale(1.05);
+    
+  }
+  
+  .home, .hora, .form  {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 1.5vh;
+    border-radius: 1.5vh;
+  }
+
 
 .barraPlaceholder{ 
     width: 500px;

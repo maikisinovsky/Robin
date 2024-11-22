@@ -10,6 +10,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden; 
+    background: linear-gradient(250deg, #0C043F, #E91366);
   }
   
   .taskBar {
@@ -43,40 +44,68 @@
     padding: 1.5vh;
     border-radius: 1.5vh;
   }
+
+  .botonesS {
+    display: flex; 
+    flex-direction: column;
+    gap: 60px;
+  }
   
   .botonesL {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row ;
     height: 92vh;
+    gap: 180px;
+    
   }
 
   .botonesL > div {
     display: flex; 
     margin-bottom: 2.6vh; 
-    gap:2.6vh;
+ 
   }
 
+  .abajo {
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2.6vh;
+    color: white
   }
 
-  a > button {
-    padding: 40px;
-    border: none;
+  .a {
+    width: 150px;
+    height: 130px;
     border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease-in-out;
+    background-color: #E91366;
+    border: 5px solid white; 
+    color: white;
   }
   
-  a > button:hover {
-    background-color: #D9D9D9;
-  transform: scale(1.05);
+  .a:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+  color: #E91366;
+  border-color: #E91366;
 
   }
 
+  .arriba {
+    display: flex;
+    gap: 60px
+  }
+
+  button {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
 
   

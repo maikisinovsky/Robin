@@ -1,13 +1,7 @@
-import { SerialPort } from "serialport"
-import { sendToFront } from "./server"
+import { SerialPort } from 'serialport'
 
+const serialport = new SerialPort({ path: 'COM8', baudRate: 9600 })
 
-export const arduino = (data)=>{
-const serialport = new SerialPort({ path: 'COM3', baudRate: 9600 })
-serialport.write(JSON.stringify(data))
-
+export const arduino =(data)=>{
+    serialport.write(data.toString())
 }
-
-serialport.on("data",(data)=>{
-    sendToFront(JSON.parse(data))
-})

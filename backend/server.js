@@ -3,6 +3,7 @@ import { onEvent, startServer,sendEvent } from "soquetic";
 import { registrar } from "./Log/register.js";
 import { login } from "./Log/login.js";
 import { index } from "./Log/index.js";
+import {arduino} from "./arduino.js"
 
 onEvent("registrar", (data) => {
     console.log(data)
