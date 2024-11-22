@@ -19,6 +19,6 @@
     "path": "^0.12.7",
     "serialport": "^12.0.0",
     "socket.io": "^4.7.5",
-    "soquetic": "^1.1.1"
+    "soquetic": "^1.2.6"
   }
 }
