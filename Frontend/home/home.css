@@ -17,58 +17,62 @@ body {
 }
 
 .taskBar {
-  background-color: #080229;
-  height: 55px;
+  background-color:#0e0444;
+  height: 115px;
   width: 100vw;
   box-shadow: none; 
   display: flex;
   justify-content:space-evenly;
   align-items:center;
-  position: fixed;
   bottom:0;
   left: 0;
   z-index: 1;
+  position: fixed;
 }
 
+
 .imgHome, .imgHora, .imgForm {
-  width: 25px;
-  height: 25px; 
+width: 60px;
+height: 60px; 
 }
 
 .home:hover, .hora:hover, .form:hover {
-  background-color: #0e0444; 
-  transform: scale(1.05);
-  
+background-color: #090132; 
+transform: scale(1.05);
+
 }
 
 .home, .hora, .form  {
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  display:inline-block;
-  padding: 1.5vh;
-  border-radius: 1.5vh;
+transition: background-color 0.3s ease, transform 0.3s ease;
+display:inline-block;
+padding: 1.5vh;
+border-radius: 1.5vh;
 }
 
 .grid-container {
-  height: 150px;
+  height: 190px;
   width: 85vw;
   background-color: #E91366;
-  border: white 4px solid;
-  border-radius: 80px;
+  border: white 8px solid;
+  border-radius: 30px;
   display: flex;
   justify-content:center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 2.3rem;
+  font:100;
+  font-weight: lighter;
   align-items: center;
   padding-inline: 8vh;
   margin-top: 5vh;
   color: white;
+
 }
 
 button {
-  font-size: 45px;
-  padding: 10px;
-  padding-inline: 40px;
-  border-radius: 50px;
+  width: 350px; 
+  height: 125px;
+  font-size: 4.5rem;
+  border-radius: 36px;
   border: none;
   background-color: #eaeaea;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -76,15 +80,15 @@ button {
 }
 
 button:hover {
-  background-color: #cacaca;
+  background-color: #ffffff;
   transform: scale(1.12);
 }
 
 .tablaRobin {
   background-color: #483CA1;
-  height: 510px;
-  width: 85vw; 
-  border-radius: 50px;
+  height: 330px;
+  width: 90vw; 
+  border-radius: 25px;
 }
 
 .contenidoHome {
@@ -92,7 +96,8 @@ button:hover {
   flex-direction: column;
   font-size: 20px;
   align-items: center;
-  gap: 10px;
+  margin-top: 40px;
+  gap: 55px;
 }
 
 .datos {
@@ -116,4 +121,57 @@ button:hover {
 
 h3 {
   color: #cacaca;
+}
+
+.labels {
+  font-size: 1.9rem;
+  font-weight: 650;
+  display: flex;
+  gap: 35%;
+  margin-left: 2%;
+  color: white;
+  margin-bottom: 13px;
+
+}
+.envio1, .envio2, .envio3, .envio4 {
+  width: 50%; 
+  height: 100%;
+  background-color: #483CA1;
+ 
+}
+
+.envio2, .envio4 {
+  background-color: #BAB6D9;
+}
+
+.envio1 {
+  border-radius: 25px 0 0 0;
+}
+
+.envio4 {
+  border-radius: 0 0 0 25px;
+}
+
+.envio1aula, .envio2aula, .envio3aula, .envio4aula {
+  width: 50%;
+  height: 100%; 
+  background-color: 483CA1;
+
+}
+
+.envio1aula, .envio3aula {
+  background-color: #BAB6D9;
+}
+
+.envio1aula {
+  border-radius: 0 25px 0 0;
+}
+
+.envio4aula {
+  border-radius: 0 0 25px 0;
+}
+
+.envio1placeholder, .envio2placeholder, .envio3placeholder, .envio4placeholder {
+  display: flex;
+  height: 25%
 }

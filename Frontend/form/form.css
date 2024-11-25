@@ -12,43 +12,60 @@
     overflow: hidden; 
     background: linear-gradient(250deg, #0C043F, #E91366);
   }
-  
   .taskBar {
-    background-color: #0C043F;
-    height: 55px;
+    background-color:#0e0444;
+    height: 115px;
     width: 100vw;
     box-shadow: none; 
     display: flex;
     justify-content:space-evenly;
     align-items:center;
-    position: fixed;
     bottom:0;
     left: 0;
     z-index: 1;
+    position: fixed;
   }
+  
+  
+.imgHome, .imgHora, .imgForm {
+  width: 60px;
+  height: 60px; 
+}
 
-  .imgHome, .imgHora, .imgForm {
-    width: 25px;
-    height: 25px; 
-  }
+.home:hover, .hora:hover, .form:hover {
+  background-color: #090132; 
+  transform: scale(1.05);
   
-  .home:hover, .hora:hover, .form:hover {
-    background-color: #0e0444; 
-    transform: scale(1.05);
-    
-  }
-  
-  .home, .hora, .form  {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    display:inline-block;
-    padding: 1.5vh;
-    border-radius: 1.5vh;
-  }
+}
+
+.home, .hora, .form  {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display:inline-block;
+  padding: 1.5vh;
+  border-radius: 1.5vh;
+}
+
+.enviar {
+  display: none; /* El botón está oculto por defecto */
+  padding:5px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 40px;
+  border:none; 
+  background-color: #eaeaea;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-left: 84%;
+
+}
+ 
+
 
   .botonesS {
     display: flex; 
     flex-direction: column;
-    gap: 60px;
+    gap: 110px;
   }
   
   .botonesL {
@@ -71,23 +88,24 @@
     display: flex; 
     align-items: center;
     flex-direction: row;
-    gap: 60px;
+    gap: 110px;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 3.6rem;
     font-weight: bold;
     margin-bottom: 2.6vh;
     color: white
   }
 
   .a {
-    width: 150px;
-    height: 130px;
-    border-radius: 10px;
+    width: 265px;
+    height: 235px;
+    border-radius: 25px;
     transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease-in-out;
     background-color: #E91366;
-    border: 5px solid white; 
+    border: 8px solid white; 
     color: white;
+    font-size: 3rem;
   }
   
   .a:hover {
@@ -100,12 +118,38 @@
 
   .arriba {
     display: flex;
-    gap: 60px
+    gap: 110px
   }
 
   button {
     font-size: 1.8rem;
     font-weight: 600;
   }
+
+.motivoLabel, .motivo {
+  display: none;
+}
+
+.motivoLabel {
+  display: flex; 
+ margin-left: 19%;
+}
+
+.placeholderMotivo {
+  display: none;
+  margin-bottom: 15%;
+}
+
+.motivo {
+  width: 80vw; 
+  border: 13px solid #eaeaea;
+  border-radius: 25px;
+  height: 200px;
+  margin: 0;
+  left: 0;
+  margin-top: 5%;
+  font-size: 2rem;
+  padding-left: 20px;
+}
 
   

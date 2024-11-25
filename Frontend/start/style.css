@@ -60,8 +60,8 @@ button {
 }
 
 .Log {
-  width: 70px;
-  height: 5vh; 
+  width: 90px;
+  height: 40px; 
   border: none;
   border-radius:3vh;
   font-size: 2vh;
@@ -72,8 +72,8 @@ button {
 
 }
 .Sign {
-  width: 70px;
-  height: 5vh; 
+  width: 90px;
+  height: 40px; 
   border: white, solid 0px;
   border-radius:3vh;
   font-size: 2vh;
@@ -98,7 +98,7 @@ button {
 
 .botonesLog  {
   display: flex;
-  gap: 1.5vh;
+  gap: 20px;
 }
 
 .textoInicial  {

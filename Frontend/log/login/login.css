@@ -58,8 +58,8 @@
 
 .primary {
   border: none;
-  border-radius: 2.4vh;
-  font-size: 2vh;
+  border-radius: 17px;
+  font-size: 1rem;
   background-color: #D9D9D9;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
@@ -67,14 +67,14 @@
   }
 
 .nombreLog, .contraLog {
-  border: 0.8vh solid #D9D9D9;
-  border-radius: 2.4vh;
+  border: 5px solid #D9D9D9;
+  border-radius: 17px;
 }
 
 .nombreLog, .contraLog, .primary {
   width: 260px;
   height: 50px;
-  padding: 10px;
+  padding-left: 10px;
   
 
 }
@@ -96,8 +96,8 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2vh;
-  gap: 8px;
+  padding: 10px;
+  gap: 10px;
   
 
 }

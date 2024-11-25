@@ -12,30 +12,35 @@
     overflow: hidden; 
     background-image: url(../../Frontend/photos/log_in.svg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7.5vh;
 
   }
   
   .taskBar {
-    background-color: #080229;
-    height: 55px;
+    background-color:#0e0444;
+    height: 115px;
     width: 100vw;
     box-shadow: none; 
     display: flex;
     justify-content:space-evenly;
     align-items:center;
-    top:0;
+    bottom:0;
     left: 0;
     z-index: 1;
+    position: fixed;
   }
   
   
 .imgHome, .imgHora, .imgForm {
-  width: 25px;
-  height: 25px; 
+  width: 60px;
+  height: 60px; 
 }
 
 .home:hover, .hora:hover, .form:hover {
-  background-color: #0e0444; 
+  background-color: #090132; 
   transform: scale(1.05);
   
 }
@@ -47,57 +52,73 @@
   border-radius: 1.5vh;
 }
 
-input  { 
-    height: 120px;
-    width:85vw;
-    background-color: #EAEAEAEA;
-    border-radius: 80px;
-    font-size: 30px;
-    padding-inline: 8vh;
-    margin-top: 5vh;
-    border: none;
-}
-
-.buscarPersona  {
-  display: flex;
-  justify-content: center;
-}
-
-.tablaHorarios {
-  height: 480px;
-  width: 40vw;
-  background-color: #483CA1;
+.horariosPlaceholder {
+  width: 45vw;
+  height: 300px;
   border-radius: 30px;
-  margin-top: 15.5vh;
-  margin-right: 26%;
-
+  
 }
 
-.container {
+.labels {
+  width: 60vh;
+  display: flex; 
+  gap: 40%;
+  margin-bottom: 10px;
+  margin-left: 6%;
+  color:white; 
+  font-weight: 600;
+  font-size: 29px;
+}
+
+.labelIvo, .labelDaro, .labelPau, .labelLu {
+  width: 50%;
+  height:100%;
+  background-color: #483CA1;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%; 
+  align-items: center;
+  padding-left: 6%;
+
+}
+
+.labelDaro, .labelLu {
+  background-color: #BAB6D9;
+}
+
+.labelIvo {
+  border-radius: 30px 0 0 0;
+}
+
+.labelLu {
+  border-radius: 0 0 0 30px;
+}
+
+
+.aulaIvo, .aulaDaro, .aulaPau, .aulaLu {
+  width: 50%;
+  height:100%;
+  background-color: #BAB6D9;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+}
+
+.aulaDaro, .aulaLu {
+  background-color: #483CA1;
+}
+
+.aulaIvo {
+  border-radius: 0 30px 0 0;
+}
+
+.aulaLu {
+  border-radius: 0 0 30px 0;
+}
+
+
+hgroup {
+  height: 25%;
+  display: flex;
   width: 100%;
-  position: relative;
-}
-
-
-header{
-}
-
-main{
-display: flex; 
-justify-content: right;
-padding-inline: 105px;
-
-}
-
-footer{
-}
-
-.ejemplo {
-  background-color: white;
-  height: 10px; 
-  width: 10px; 
+  font-size: 1.9rem;
+  font-weight: 400;
 }

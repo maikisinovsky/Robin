@@ -62,6 +62,9 @@ export const index = ()=>{
             
         }
     }
+    else {
+        Daro = "No disponible"
+    }
     
     
     if (json.Ivo[dia])
@@ -72,8 +75,12 @@ export const index = ()=>{
         }
     
         else {
-            Ivo = "No disponible"
+            Ivo = "No disponible";
                     }
+    }
+
+    else {
+        Ivo = "No disponible";
     }
    
     
@@ -91,6 +98,10 @@ export const index = ()=>{
     
         }
     }
+
+    else {
+        Pau = "No disponible";
+    }
    
     
     if (json.Lu[dia])
@@ -103,6 +114,10 @@ export const index = ()=>{
         else {
             Lu = "No disponible"
                    }
+    }
+
+    else {
+        Lu = "No disponible"
     }
     
     return {lu:Lu,pau:Pau,ivo:Ivo,daro:Daro}

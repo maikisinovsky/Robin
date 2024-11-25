@@ -1,38 +1,29 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const h1Element = document.querySelector(".grid-container h1");
+    const botonUsar = document.getElementById("botonUsar");
 
+    const aula = localStorage.getItem("aula");
+    const motivo = localStorage.getItem("motivo");
 
+    console.log(aula)
 
-document.addEventListener("DOMContentLoaded", function () {
-
-    const listaDatosFormulario = JSON.parse(
-    localStorage.getItem("listaDatosFormulario"),
-    localStorage.setItem('edad', años)
-    );
-
-    console.log(listaDatosFormulario)
-    const container = document.querySelector(".tablaRobin");
-    container.classList.add("datos");
-
-    if (listaDatosFormulario && listaDatosFormulario.length > 0) {
-    container.innerHTML = `
-        <div class="grid-table">
-            <div class="grid-header"></div>
-            <div class="grid-header">Primer Destino</div>
-            <div class="grid-header">Segundo Destino</div>
-        </div>
-    `;
-        
-        
-    listaDatosFormulario.forEach((datosFormulario) => {
-        const row = document.createElement("div");
-        row.classList.add("grid-row");
-        row.innerHTML = `
-            <div class="grid-cell">${datosFormulario.nombre}</div>
-            <div class="grid-cell">${datosFormulario.primerDestino}</div>
-            <div class="grid-cell">${datosFormulario.segundoDestino}</div>
-        `;
-        container.querySelector(".grid-table").appendChild(row);
-    });
+    if (aula && motivo) {
+        h1Element.textContent = `Robin está yendo a ${aula}`;
+        botonUsar.textContent = "MOTIVO";
     } else {
-    container.innerHTML = `<h3>No hay actividad pendiente de robin</h3>`;    }
+        h1Element.textContent = "Robin está quieto";
+        botonUsar.textContent = "Usar";
+    }
 
+    botonUsar.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        if (aula && motivo) {
+            alert(`Motivo: ${motivo}`);
+            window.location.href = "../start";
+        } else {
+            alert("Por favor, selecciona un aula y un motivo primero.");
+        }
     });
+});
+
