@@ -58,12 +58,12 @@ export const index = ()=>{
         }
     
         else {
-            Daro = "No disponible"
+            Daro = {aula:"No disponible"}
             
         }
     }
     else {
-        Daro = "No disponible"
+        Daro = {aula:"No disponible"}
     }
     
     
@@ -75,12 +75,12 @@ export const index = ()=>{
         }
     
         else {
-            Ivo = "No disponible";
+            Ivo = {aula:"No disponible"};
                     }
     }
 
     else {
-        Ivo = "No disponible";
+        Ivo = {aula:"No disponible"};
     }
    
     
@@ -93,14 +93,14 @@ export const index = ()=>{
         }
     
         else {
-            Pau =  "No disponible";
+            Pau =  {aula:"No disponible"};
             
     
         }
     }
 
     else {
-        Pau = "No disponible";
+        Pau = {aula:"No disponible"};
     }
    
     
@@ -112,12 +112,12 @@ export const index = ()=>{
                    }
     
         else {
-            Lu = "No disponible"
+            Lu = {aula:"No disponible"}
                    }
     }
 
     else {
-        Lu = "No disponible"
+        Lu = {aula:"No disponible"}
     }
     
     return {lu:Lu,pau:Pau,ivo:Ivo,daro:Daro}

@@ -86,7 +86,7 @@ button:hover {
 
 .tablaRobin {
   background-color: #483CA1;
-  height: 330px;
+  height: 250px;
   width: 90vw; 
   border-radius: 25px;
 }
@@ -96,7 +96,7 @@ button:hover {
   flex-direction: column;
   font-size: 20px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
   gap: 55px;
 }
 
