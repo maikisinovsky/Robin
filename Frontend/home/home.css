@@ -79,11 +79,18 @@ button {
   background-color: #eaeaea;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 button:hover {
   background-color: #ffffff;
   transform: scale(1.12);
+}
+.motivo{
+  text-decoration: none;
 }
 
 .tablaRobin {

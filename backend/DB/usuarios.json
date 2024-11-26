@@ -34,11 +34,7 @@
     "nombre": "hola",
     "contraseña": "123",
     "envios": [
-      {
-        "destination": "L1",
-        "user": "hola",
-        "motivo": "Pito duro"
-      }
+      
     ]
   }
 ]
