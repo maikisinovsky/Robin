@@ -31,6 +31,8 @@ body {
 }
 
 
+
+
 .imgHome, .imgHora, .imgForm {
 width: 60px;
 height: 60px; 
@@ -137,11 +139,13 @@ h3 {
   width: 50%; 
   height: 100%;
   background-color: #483CA1;
+  padding-left: 20px;
  
 }
 
 .envio2, .envio4 {
   background-color: #BAB6D9;
+  padding-left: 20px;
 }
 
 .envio1 {
@@ -161,6 +165,8 @@ h3 {
 
 .envio1aula, .envio3aula {
   background-color: #BAB6D9;
+
+padding-left:20px;
 }
 
 .envio1aula {

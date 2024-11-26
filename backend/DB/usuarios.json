@@ -2,26 +2,43 @@
   {
     "mail": "maia.kisinovsky@gmail.com",
     "nombre": "Maia",
-    "contraseña": "rafahermosa"
+    "contraseña": "rafahermosa",
+    "envios": []
   },
   {
     "mail": "fedezonis7@gmail.com",
     "nombre": "Fede",
-    "contraseña": "rafahermosa"
+    "contraseña": "rafahermosa",
+    "envios": []
   },
   {
     "mail": "49194476@est.ort.edu.ar",
     "nombre": "Mia",
-    "contraseña": "rafahermosa"
+    "contraseña": "rafahermosa",
+    "envios": []
   },
   {
     "mail": "nomerompaslasbolas@ort",
     "nombre": "lucho",
-    "contraseña": "rafahermosa"
+    "contraseña": "rafahermosa",
+    "envios": []
   },
   {
     "mail": "Dario@gmail.com",
     "nombre": "Daro",
-    "contraseña": "rafahermosa"
+    "contraseña": "rafahermosa",
+    "envios": []
+  },
+  {
+    "mail": "hola@gmal.com",
+    "nombre": "hola",
+    "contraseña": "123",
+    "envios": [
+      {
+        "destination": "L1",
+        "user": "hola",
+        "motivo": "Pito duro"
+      }
+    ]
   }
 ]
