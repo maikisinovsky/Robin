@@ -3,7 +3,18 @@
     "mail": "maia.kisinovsky@gmail.com",
     "nombre": "Maia",
     "contraseña": "rafahermosa",
-    "envios": []
+    "envios": [
+      {
+        "destination": "L1",
+        "user": "Maia",
+        "motivo": "galletitas"
+      },
+      {
+        "destination": "L1",
+        "user": "Maia",
+        "motivo": "ejemplo"
+      }
+    ]
   },
   {
     "mail": "fedezonis7@gmail.com",
@@ -16,25 +27,5 @@
     "nombre": "Mia",
     "contraseña": "rafahermosa",
     "envios": []
-  },
-  {
-    "mail": "nomerompaslasbolas@ort",
-    "nombre": "lucho",
-    "contraseña": "rafahermosa",
-    "envios": []
-  },
-  {
-    "mail": "Dario@gmail.com",
-    "nombre": "Daro",
-    "contraseña": "rafahermosa",
-    "envios": []
-  },
-  {
-    "mail": "hola@gmal.com",
-    "nombre": "hola",
-    "contraseña": "123",
-    "envios": [
-      
-    ]
   }
 ]

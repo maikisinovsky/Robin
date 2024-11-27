@@ -13,7 +13,6 @@ fetchData("horarios",(data)=>{
    sessionStorage.setItem("ivo",data.data.ivo.aula)
    sessionStorage.setItem("pau",data.data.pau.aula)
    sessionStorage.setItem("lu",data.data.lu.aula)
-
    
 })
 console.log(ivo)
