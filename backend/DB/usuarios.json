@@ -4,16 +4,6 @@
     "nombre": "Maia",
     "contraseña": "rafahermosa",
     "envios": [
-      {
-        "destination": "L1",
-        "user": "Maia",
-        "motivo": "galletitas"
-      },
-      {
-        "destination": "L1",
-        "user": "Maia",
-        "motivo": "ejemplo"
-      }
     ]
   },
   {

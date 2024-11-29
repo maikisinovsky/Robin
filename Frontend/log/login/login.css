@@ -109,3 +109,11 @@ color: #E91366;
 .textoCuenta {
   color: #EAEAEA;
 }
+
+.popup {
+  width: 500px; 
+  height: 500px;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+}
