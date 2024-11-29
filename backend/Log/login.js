@@ -40,8 +40,6 @@ import {
             console.log(error);
         }
 
-      
-
         console.log("Usuario logeado:", userExist); 
         return userExist
     }
