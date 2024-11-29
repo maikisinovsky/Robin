@@ -4,6 +4,11 @@
     "nombre": "Maia",
     "contraseña": "rafahermosa",
     "envios": [
+      {
+        "destination": "L1",
+        "user": "Maia",
+        "motivo": "BNM,"
+      }
     ]
   },
   {
