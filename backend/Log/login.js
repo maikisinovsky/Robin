@@ -22,7 +22,8 @@ import {
 
 
         let usuariosActuales = []; 
-let userExist = false
+        let userExist = false
+
         try {
             const datosJSON = readFileSync("../backend/DB/usuarios.json",  "utf8");
             usuariosActuales = JSON.parse(datosJSON);

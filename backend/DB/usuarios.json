@@ -7,12 +7,7 @@
       {
         "destination": "L1",
         "user": "Maia",
-        "motivo": "galletitas"
-      },
-      {
-        "destination": "L1",
-        "user": "Maia",
-        "motivo": "ejemplo"
+        "motivo": "dfghjk"
       }
     ]
   },
@@ -27,5 +22,15 @@
     "nombre": "Mia",
     "contraseña": "rafahermosa",
     "envios": []
+  },
+  {
+    "mail": "hola@hola",
+    "nombre": "hola@hola",
+    "contraseña": "hola"
+  },
+  {
+    "mail": "paula@gmail.com",
+    "nombre": "Paula",
+    "contraseña": "paula"
   }
 ]

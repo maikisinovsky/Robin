@@ -9,8 +9,8 @@ loginform.addEventListener("submit", (e) => {
     let validUser = false;
 
     postData("login", { mail: Mail, contraseña: Contraseña }, (data) => {
-        console.log(data);
-        validUser = data;
+        console.log('front',data.data);
+        validUser = data.data;
 
         if (!validUser) {
             return alert("Usuario y/o contraseña incorrectos");
